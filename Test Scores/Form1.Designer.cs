@@ -141,6 +141,7 @@
             // 
             // exitBtn
             // 
+            this.exitBtn.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.exitBtn.Location = new System.Drawing.Point(163, 173);
             this.exitBtn.Name = "exitBtn";
             this.exitBtn.Size = new System.Drawing.Size(102, 31);
@@ -153,6 +154,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(394, 228);
             this.Controls.Add(this.exitBtn);
             this.Controls.Add(this.clearScoresBtn);
